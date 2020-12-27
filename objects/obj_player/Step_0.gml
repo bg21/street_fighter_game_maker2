@@ -7,3 +7,8 @@ if(keyboard_check(vk_right)){
 	x -= 2;
 	image_xscale = -1;
 }
+
+if(keyboard_check(ord("X"))){
+	sprite_index = spr_chute;
+	alarm[0] = 5;
+}
