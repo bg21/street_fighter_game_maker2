@@ -3,8 +3,10 @@
 
 if(keyboard_check(vk_right)){
 	x += 3;
+	image_xscale = 1;
 }else if(keyboard_check(vk_left)){
 	x -= 3;
+	image_xscale = -1;
 }
 
 if(keyboard_check(ord("X")) && sprite_index != spr_chute){
